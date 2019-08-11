@@ -1,0 +1,86 @@
+/*=====================
+    HOMEPAGE STYLES
+=====================*/
+
+#homepage-widgetContainerID.ps-container {
+	padding: 0 90px;
+}
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal .ps-img-container {
+	height: 241px !important;
+}
+
+.prdct__title {
+	margin: 45px 0 20px 0 !important;
+}
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal {
+	padding: 12px 73px !important;
+}
+/*=====================
+    LOOKBOOK STYLES
+=====================*/
+
+.wrapper-widgets {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.wrapper-widgets .tabss input[type=radio] {
+    display: none
+}
+
+.wrapper-widgets .tabss label {
+    display: inline-grid;
+    width: 6.2%;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+    margin: 30px 39px;
+    border-bottom: 1px solid transparent;
+    color: #000;
+    letter-spacing: .05em;
+    font-family: Pluto, arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    vertical-align: bottom;
+    font-weight: 500;
+    transition: border-bottom 3s ease;
+}
+
+.wrapper-widgets .tabss label:hover {
+    border-bottom: 1.5px solid #444
+}
+
+.tabss [id^=tab]:checked+label {
+    border-bottom: 1.5px solid #aaa
+}
+
+ul.ps-images {
+    margin: 0;
+    padding: 0
+}
+
+.wrapper-widgets #tab1:checked~#tab-content1,
+.wrapper-widgets #tab2:checked~#tab-content2,
+.wrapper-widgets #tab3:checked~#tab-content3 {
+    display: block
+
+}
+
+.wrapper-widgets .tab-content {
+    display: none;
+    width: 100%
+}
+.ps-product-description {
+    margin-top: 49px !important;
+}
+
+.ps-product-cta {
+    margin-top: 23px !important;
+}
+
+
+
+
